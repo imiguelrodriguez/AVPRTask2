@@ -1,6 +1,5 @@
 import os
 import shutil
-import xml.etree.ElementTree as ET
 
 # Directories
 image_dir = "Stanford40/JPEGImages"  # Directory containing the images
