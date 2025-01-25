@@ -55,7 +55,6 @@ Two Jupyter notebooks are provided for training and evaluation:
 
 Run the notebooks to reproduce the results or adapt them for your experiments.
 
----
 
 ## Data Preprocessing
 
@@ -64,13 +63,11 @@ To prepare the dataset:
 1. Ensure the Stanford40 dataset is organized correctly.
 2. Use the provided preprocessing script to structure the dataset for training and testing.
 
----
 
 ## Grid Search
 
 The project implements a grid search to optimize hyperparameters for the custom CNN. Parameters such as the number of layers, learning rates, and kernel sizes are tested to achieve the best validation accuracy.
 
----
 
 ## Results
 
@@ -78,7 +75,6 @@ The project implements a grid search to optimize hyperparameters for the custom 
 - The pre-trained ResNet model achieved an accuracy of **Y%**, serving as a baseline for comparison.
 - ResNet outperformed the custom CNN due to its pre-trained feature extraction capabilities, but the custom CNN demonstrated competitive performance with fewer computational resources.
 
----
 
 ## References
 
